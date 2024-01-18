@@ -1,4 +1,3 @@
-```markdown
 # Cálculo de Custo por Km
 
 Este é um aplicativo simples em PHP que calcula o custo por quilômetro rodado de um veículo com base em alguns parâmetros fornecidos pelo usuário. O aplicativo também inclui um formulário frontend usando Bootstrap para a entrada de dados.
