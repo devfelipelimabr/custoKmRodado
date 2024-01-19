@@ -6,7 +6,7 @@ function calcularCustoPorKm($precoCombustivel, $precoOleo, $litrosOleoCarter, $p
     $custoOleo = $litrosOleoCarter * $precoOleo / $kmTrocaOleo;
     $custoPneu = $precoPneu / $kmTrocaPneu;
 
-    $custoPorKm = $custoCombustivel + $custoOleo + $custoPneu;
+    $custoPorKm = $custoCombustivel + $custoOleo + $custoPneu * 4;
 
     return $custoPorKm;
 }
